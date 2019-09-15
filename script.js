@@ -71,11 +71,9 @@ return computerpoint;}
 function bestoffive(){
 
 
-game();
-game();
-game();
-game();
-game();
+for(i = 0; i < 5; i ++){
+game()
+}
 
 if(playerpoint>computerpoint){
 alert(`Player ${playerpoint} - Computer ${computerpoint}. Player wins!`)
